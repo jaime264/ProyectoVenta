@@ -13,7 +13,7 @@ public class MysqlConexion {
 		String url = "jdbc:mysql://localhost:3306/PUNTOVENTA?"
 				+ "useSSL=false&useTimezone=true&serverTimezone=UTC";
 		String usr = "root";
-		String psw = "Mysql123!";
+		String psw = "1234";
 	
 		con = DriverManager.getConnection(url, usr, psw);
 			
